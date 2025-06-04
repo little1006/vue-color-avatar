@@ -7,9 +7,7 @@
 </template>
 
 <script lang="ts" setup>
-import IconGitHub from '@/assets/icons/icon-github.svg'
 import Logo from '@/components/Logo.vue'
-import { recordEvent } from '@/utils/ga'
 </script>
 
 <style lang="scss" scoped>
