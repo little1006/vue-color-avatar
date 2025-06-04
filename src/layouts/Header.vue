@@ -31,36 +31,5 @@ import { recordEvent } from '@/utils/ga'
       display: none;
     }
   }
-
-  .header-right {
-    margin-left: auto;
-
-    .github-button {
-      position: relative;
-      z-index: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 9rem;
-      height: 2.6rem;
-      overflow: hidden;
-      color: var.$color-text;
-      font-weight: bold;
-      font-size: 1.05rem;
-      background-color: var.$color-dark;
-      border-radius: 0.6rem;
-      cursor: pointer;
-      user-select: none;
-
-      &:hover {
-        background-color: darken(var.$color-dark, 3);
-      }
-
-      .text {
-        margin-left: 0.5rem;
-        letter-spacing: 0.03rem;
-      }
-    }
-  }
 }
 </style>
