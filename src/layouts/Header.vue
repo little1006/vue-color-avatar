@@ -1,7 +1,6 @@
 <template>
   <header class="header">
     <Logo />
-122222222
     <h2 class="site-title">Color Avatar</h2>
   </header>
 </template>
