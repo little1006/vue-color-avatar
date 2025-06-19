@@ -203,10 +203,7 @@ async function make() {
     grid-auto-rows: min-content;
     max-width: 800px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
     justify-content: space-between;
-    width: max(85vw, 1280px);
-    padding: 2rem;
     overflow-x: hidden;
 
     .avatar-box {
