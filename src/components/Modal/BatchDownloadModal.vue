@@ -27,8 +27,8 @@
 
       <div class="content-box">
         <PerfectScrollbar
-          style="height: 100%; overflow: hidden"
-          :options="{ suppressScrollX: false }"
+          style="height: 100%; overflow-x: hidden"
+          :options="{ suppressScrollX: true }"
         >
           <div class="content">
             <template v-for="(opt, i) in props.avatarList" :key="i">
@@ -201,11 +201,13 @@ async function make() {
     z-index: 10;
     display: grid;
     grid-auto-rows: min-content;
+    max-width: 800px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
     justify-content: space-between;
     width: max(85vw, 1280px);
     padding: 2rem;
+    overflow-x: hidden;
 
     .avatar-box {
       position: relative;

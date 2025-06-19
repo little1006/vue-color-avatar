@@ -39,4 +39,7 @@ onUnmounted(() => {
     background-color: #2c323a;
   }
 }
+.ps--active-y .ps__rail-x {
+  display: none;
+}
 </style>

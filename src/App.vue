@@ -3,8 +3,6 @@
     <Container>
       <div class="content-warpper">
         <div class="content-view">
-          <Header />
-
           <div class="playground">
             <div class="avatar-wrapper">
               <VueColorAvatar
@@ -316,7 +314,7 @@ async function generateMultiple(count = 5 * 6) {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 38px;
     column-gap: 1rem;
 
     @supports not (column-gap: 1rem) {
